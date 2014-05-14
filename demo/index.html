@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Google Analytics</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+		<script src="../dist/jquery.google-analytics.js"></script>
+		<script>
+			$.ga('domains', ['domain.com', 'example.com']); //linker
+
+			$.ga('create', 'UA-XXXX-Y');
+			$.ga('create', 'UA-YYYY-X');
+			$.ga('create', 'UA-AAAA-B', {name: 'bacon'});
+
+			$.ga('pageview', '/'); //envia para ambas as contas
+			$('a').ga('mousedown', 'event', category, action, label, value, non_interaction); //disparo on mousedown
+		</script>
+	</head>
+	<body>
+	
+		<script>
+
+		</script>
+
+	</body>
+</html>

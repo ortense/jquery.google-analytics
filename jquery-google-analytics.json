@@ -1,0 +1,28 @@
+{
+	"name": "jquery.google-analytics",
+	"title": "jQuery Google Analytics",
+	"description": "jQuery plugin for Google Analytics.",
+	"keywords": [
+		"jquery",
+		"plugins",
+		"google-analytics",
+		"universal-analytis"
+	],
+	"version": "0.0.1",
+	"author": {
+		"name": "Marcus Ortense",
+		"email": "marcus.ortense@outlook.com",
+		"url": "https://github.com/ortense"
+	},
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+	"bugs": "https://github.com/ortense/jquery.google-analytics/issues",
+	"docs": "https://github.com/ortense/jquery.google-analytics#readme",
+	"download": "",
+	"dependencies": {
+		"jquery": ">=1.4"
+	}
+}
